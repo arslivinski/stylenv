@@ -159,3 +159,6 @@ pids
 
 # Output of 'npm pack'
 *.tgz
+
+# Optional eslint cache
+.eslintcache
