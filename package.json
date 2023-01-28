@@ -4,6 +4,14 @@
   "description": "Browser extension to style environments",
   "license": "ISC",
   "private": true,
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "husky": "^8.0.3"
+  },
   "author": {
     "name": "Anderson Roberto Slivinski",
     "url": "https://arslivinski.com"
