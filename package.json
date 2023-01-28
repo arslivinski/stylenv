@@ -1,0 +1,19 @@
+{
+  "name": "@arslivinski/stylenv",
+  "version": "1.0.0",
+  "description": "Browser extension to style environments",
+  "license": "ISC",
+  "private": true,
+  "author": {
+    "name": "Anderson Roberto Slivinski",
+    "url": "https://arslivinski.com"
+  },
+  "homepage": "https://github.com/arslivinski/stylenv",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arslivinski/stylenv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arslivinski/stylenv/issues"
+  }
+}
