@@ -1,0 +1,4 @@
+#root > div > div:nth-child(2),
+.navbar {
+  background: repeating-linear-gradient(135deg, #ebd007, #ebd007 32px, #202931 32px, #202931 64px) !important;
+}

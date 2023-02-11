@@ -1,0 +1,19 @@
+body {
+  border-width: 16px;
+  border-style: solid;
+  border-image: repeating-linear-gradient(135deg, #ebd007, #ebd007 32px, #202931 32px, #202931 64px) 16;
+}
+
+#root,
+#root > div:nth-child(2),
+#root > div > div > aside {
+  min-height: calc(100vh - 32px) !important;
+}
+
+#root > div:nth-child(2) > div:nth-child(2) {
+  height: calc(100vh - 32px) !important;
+}
+
+#root > div > div > main {
+  height: calc(100vh - 60px - 32px) !important;
+}

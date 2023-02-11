@@ -13,6 +13,7 @@
     "@arslivinski/eslint-config": "^1.0.0-alpha.16",
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
+    "@types/chrome": "^0.0.210",
     "eslint": "^8.32.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",

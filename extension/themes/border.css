@@ -1,0 +1,5 @@
+body {
+  border-width: 16px;
+  border-style: solid;
+  border-image: repeating-linear-gradient(135deg, #ebd007, #ebd007 32px, #202931 32px, #202931 64px) 16;
+}

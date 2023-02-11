@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  height: 100%;
+  isolation: isolate;
+}
+
+.content {
+  width: 640px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header__image {
+  display: inline-block;
+}
+
+.form {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__group--grow {
+  flex-grow: 1;
+}
+
+.rules {
+  border-collapse: collapse;
+}
+
+.rules th {
+  text-align: left;
+}
+
+.rules th:first-child {
+  width: 100%;
+}
+
+.rules th,
+.rules td {
+  padding: 8px;
+}
