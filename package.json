@@ -10,11 +10,11 @@
     "lint": "eslint --ext=js ./"
   },
   "devDependencies": {
-    "@arslivinski/eslint-config": "^1.0.0-alpha.16",
+    "@arslivinski/eslint-config": "^1.0.0-alpha.17",
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
     "@types/chrome": "^0.0.210",
-    "eslint": "^8.32.0",
+    "eslint": "^8.34.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.3"
